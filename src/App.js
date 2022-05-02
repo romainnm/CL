@@ -20,7 +20,7 @@ function App() {
               path="/CL/data-visualisation/:dataVisualisationId"
               element={<SingleDataVisualisation />}
             />
-            <Route path="*" element={<Error />} />
+            <Route path="/CL/*" element={<Error />} />
           </Routes>
           <Footer />
         </main>
