@@ -27,10 +27,10 @@ const SingleDataVisualisation = () => {
         <img src="../images/mock-img.jpg" alt="data-project" />
       </div>
       <div className="prev-next-project">
-        <Link to={`/data-visualisation/2`}>
+        <Link to={`/CL/data-visualisation/2`}>
           <IoIosArrowBack /> <span>Prev Project Name</span>
         </Link>
-        <Link to={`/data-visualisation/3`}>
+        <Link to={`/CL/data-visualisation/3`}>
           <span>Next Project Name</span>
           <IoIosArrowForward />
         </Link>
